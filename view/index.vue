@@ -2,7 +2,7 @@
 <div class="container">
  <div class="columna1">
      <div>
-         <a href="" class="btn "><b class="bt"></b>{{btn}}</a>
+         <a href="" class="btn "><b class="bt">{{suma}}</b>{{btn}}</a>
 </div>
 <div class="col2">
    <p class="parrafo">{{texto}}</p>
@@ -30,7 +30,7 @@ export default {
             title: 'Bienvenidos a Media Impact',
             btn: ' Add note',
             texto: 'Larabel',
-
+            suma: '+'
             // parrafo: 'Laravel'
             
         }
@@ -55,6 +55,10 @@ export default {
     display: grid;
     grid-template-columns: 25% 50% 0.3% 24.7%;
     height: 100vh;
+}
+.bt {
+    font-family: initial;
+    font-size: 30px;
 }
 .btn {
     padding: 7px 12px 10px 10px;
