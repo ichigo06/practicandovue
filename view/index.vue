@@ -14,12 +14,12 @@
  <div class="columna2">
      <div class="columuna2-1">
           <input class="text" type="text" placeholder=" Laravel">
-     <a class="btn1" href=""></a>
-     <a class="btn2" href=""></a>
+     <a class="btn1 " href=""><i class="fas fa-star"></i></a>
+     <a class="btn2" href=""><i class="fas fa-trash"></i></a>
      </div>
 </div>
 <div class="columna3"></div>
- <div class="columna4"></div>
+<div class="columna4"></div>
 </div>
 </template>
 <script>
@@ -69,7 +69,7 @@ export default {
 }
 .btn1 {
     
-    padding: 10px 23px;    
+    padding: 10px 15px;    
     background: rgb(64, 184, 131);
     margin-left: 5px;
     margin-top: 5px;
@@ -81,7 +81,7 @@ export default {
 }
 .btn2 {
     
-    padding: 10px 23px;    
+    padding: 10px 18px;    
     background: rgb(64, 184, 131);
     margin-left: 5px;
     margin-top: 5px;
@@ -114,6 +114,9 @@ background: #ffffff;
 }
 .columuna2-1 {
     display: flex;
+}
+.fa .fa-star {
+    padding: 60px;
 }
 
 </style>
