@@ -18,7 +18,9 @@
     
 </template>
 <script>
+
 export default {
+    name:'footer',
     data() {
         return {
             title: 'Bienvenidos a Media Impact'
@@ -34,7 +36,7 @@ export default {
 }
     header {
         
-        background-color: darkgrey;
+        background-color: black;
         padding: 15px;
         height: 50px;
         text-align: center;

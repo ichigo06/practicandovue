@@ -1,19 +1,24 @@
 <template>
 <div>
-  <PrimerComponent />
-
+  <Header />
+  <Index />
+  <Footer />  
 </div>
 </template>
-
-
 <script>  
+import Header from './components/header'
+import Index from '../view/index'
+import Footer from './components/footer';
 
-import PrimerComponent from './components/header'
+
 
 export default {
   name: 'app',
    components: {
-  PrimerComponent,
+    Header,
+    Index,
+    Footer
+ 
   
 }
 
