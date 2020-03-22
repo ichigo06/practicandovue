@@ -23,7 +23,7 @@ export default {
     name:'footer',
     data() {
         return {
-            title: 'Bienvenidos a Media Impact'
+            title: 'Bienvenidos a Media Impact 2020'
         }
      }
 }
